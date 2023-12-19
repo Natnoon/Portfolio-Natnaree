@@ -1,14 +1,16 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Itim&family=Kanit:wght@200&display=swap');
+{
   margin: 0;
   padding: 0;
 }
 
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fredoka', sans-serif;
+font-family: 'Itim', cursive;
+font-family: 'Kanit', sans-serif;
 }
 
 html {
@@ -16,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(85, 124, 161);
 }
 
 /* TRANSITION */
@@ -45,19 +47,19 @@ nav {
   font-size: 1.5rem;
 }
 .img-round {
-  border-radius: 20%;
+  border-radius: 50%;
 }
 a {
-  color: black;
+  color: rgb(85, 124, 161);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(194, 91, 168);
 }
 
 a:hover {
-  color: grey;
+  color: rgb(74, 145, 101);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(228, 125, 125);
 }
 
 .logo {
@@ -111,7 +113,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: rgb(245, 240, 240);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -233,7 +235,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -243,7 +245,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(3, 3, 3);
   color: white;
 }
 
